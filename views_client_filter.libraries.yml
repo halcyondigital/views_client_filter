@@ -1,0 +1,12 @@
+views_client_filter:
+  version: 1.x
+  css:
+    theme:
+      css/views.clientsidefilter.css: {}
+  js:
+    js/views.clientsidefilter.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings
+    - slick/slick
+    - slick/slick.theme
