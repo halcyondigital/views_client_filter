@@ -25,3 +25,6 @@ tmp*
 # Exclude IDE's project directory
 nbproject
 .idea
+
+# Composer
+composer.lock

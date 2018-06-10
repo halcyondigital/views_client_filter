@@ -1,0 +1,6 @@
+{
+    "name": "halcyondigital/views_client_filter",
+    "description": "Creates a dummy exposed filter in Views for use in clientside JS filtering",
+    "type": "drupal-module",
+    "minimum-stability": "dev"
+}
