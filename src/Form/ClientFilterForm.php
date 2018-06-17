@@ -41,6 +41,9 @@ class ClientFilterForm extends FormBase {
         'autocomplete' => 'off',
       ),
     );
+    if(count($options) <= 2) {
+      $form['#attributes']['class'][] = 'off';
+    }
     /*$form['category']['#ajax'] = array(
         'callback' => '::filterAjaxCallback',
         'event' => 'change',
