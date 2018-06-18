@@ -5,7 +5,7 @@
       $('input[type=radio]', 'div.view-rental-items').change(
         function(){
             if (this.checked) {
-              selected = $(this).closest('label').text().replace(/[\s\xA0]+/g,'').toLowerCase();  // get class name from input label
+              selected = $(this).closest('label').text().replace(/[\s\xA0]+/g,'-').toLowerCase();  // get class name from input label
               slider = $(this).parents('.view-rental-items').find('.slick-slider')
               
               // Assign active class to checked label
