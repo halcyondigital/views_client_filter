@@ -1,7 +1,7 @@
 name: Views Client-side Filter
 description: 'Implements a custom client-side exposed filter instead of server-side'
 type: module
-core: 8.x
+core_version_requirement: ^8 || ^9
 version: 0.1
 package: Views
 dependencies:
